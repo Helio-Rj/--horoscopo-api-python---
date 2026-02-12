@@ -125,7 +125,11 @@ https://horoscope-app-api.vercel.app/api/v1/get-horoscope/daily?sign=<signo>
 - Em caso de código HTTP diferente de 200, o script imprime o código de erro retornado pela API.
 - Para tradução, o script usa `googletrans`. Caso a tradução gere uma coroutine (dependendo da versão), o script lida com ambos os casos (sincrono/assíncrono) e faz fallback para o texto original em caso de erro.
 
+
+![horoscpo.png](..%2F..%2Fhoroscpo.png)
+
 ## Soluções de problemas (troubleshooting)
+
 
 - Erro ao instalar `googletrans`:
 	- Tente instalar a versão `4.0.0-rc1` explicitamente.
